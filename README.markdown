@@ -44,6 +44,7 @@ Run rake db:migrage && rake db:seed
 
 Run rails server and go to locolhost:3000
 
+Here is the app live on Heroku [pintirest]
 
 # ABOUT THE DEVELOPER
 
@@ -57,4 +58,4 @@ Run rails server and go to locolhost:3000
 [generalassemb.ly]:https://generalassemb.ly/
 [jmblog]:https://jmblog.herokuapp.com/
 [jmraddit]:https://jmraddit.herokuapp.com/
-[pinterest]:https://www.pinterest.com/
+[pintirest]:https://pintirest.herokuapp.com/
