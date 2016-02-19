@@ -21,7 +21,7 @@ gem 'aws-sdk', '>= 2.0.0'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-group :development do
+group :development, :test do
 	gem 'sqlite3'
 	gem 'byebug'
   gem 'web-console', '~> 2.0'
