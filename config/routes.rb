@@ -6,5 +6,5 @@ Rails.application.routes.draw do
 		end
 	end
 
-	root "pins#show"
+	root "pins#index"
 end
