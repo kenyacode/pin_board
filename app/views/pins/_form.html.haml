@@ -3,7 +3,7 @@
 		#errors
 			%h2
 			= pluralize(@pin.errors.count, "error")
-			prevented this PIn from saving
+			prevented this pin from saving
 			%ul
 				- @pin.errors.full_messages.each do |msg|
 					%li= msg

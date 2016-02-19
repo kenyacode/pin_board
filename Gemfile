@@ -11,10 +11,13 @@ gem 'haml', '~> 4.0.5'
 gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'simple_form', '~> 3.0.2'
 gem 'devise'
-gem 'paperclip'
+gem 'carrierwave', '~> 0.10.0'
+gem 'fog', '~> 1.37'
+gem 'rmagick'
 gem 'masonry-rails'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'github-markup','~> 1.4'
+gem 'aws-sdk', '>= 2.0.0'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
