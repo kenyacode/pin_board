@@ -6,18 +6,18 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-	user = User.find_or_create_by(email: 'test1@kenyacode.com') do |u|
-		u.email = 'test1@kenyacode.com'
-		u.password = 'wordpass'
-		u.password_confirmation = 'wordpass'
-		u.save!
-	end
+	# user = User.find_or_create_by(email: 'test1@kenyacode.com') do |u|
+	# 	u.email = 'test1@kenyacode.com'
+	# 	u.password = 'wordpass'
+	# 	u.password_confirmation = 'wordpass'
+	# 	u.save!
+	# end
 
 
-	user.pins.find_or_create_by(title:"Retro Jordans") do |p|
-		p.description = "I have wanted to own these since i was 11."
-		p.image = File.new("#{Rails.root}/db/images/retro_jordans.jpg")
-	end
+	# user.pins.find_or_create_by(title:"Retro Jordans") do |p|
+	# 	p.description = "I have wanted to own these since i was 11."
+	# 	# p.image = File.new("#{Rails.root}/db/images/retro_jordans.jpg")
+	# end
 
 	# user.pins.create(title:"Retro Jordans 2", description: "I have wanted to own these since i was 11.")
 	# user.pins.create(title:"Retro Jordans 3", description: "I have wanted to own these since i was 11.")
